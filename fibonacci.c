@@ -12,5 +12,5 @@ int main(){
         
 
     }
-    printf("the fibonacci of %d is %d\n", n, sum);
+    printf("the fibonacci of %d is %d\n", n,  sum);
 }
