@@ -1,14 +1,10 @@
-#include <stdio.h>
-int fact(int n){
-    if(n==1|| n==0) return 1;
-    return n*fact(n-1); // base case   
+ #include <stdio.h>
+int add(int a, int b) {
+    return a + b;   
 }
-int main()
-{
-    
-    printf("Hello World\n");
- int n=5;
-    
-    printf("factorial of %d is %d",n,fact(n));
+int main(){
+int result = add(3, 4);
+    printf("The result is: %d\n", result);
     return 0;
 }
+
